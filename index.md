@@ -36,7 +36,7 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 - Sort the bars by value using the **Sort** button.
 - Change the chart title by double-clicking it.
 
-![Customize Graph](images/color_example.png)
+<img src="images/color_example.png" alt="Customize Graph" width="800"/>
 
 ---
 
@@ -44,7 +44,8 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 
 - Click **Worksheet > Export > Image** to save your graph.
 
-![Export Image](images/export_image.png)
+<img src="images/export_image.png" alt="Export Image" width="800"/>
+
 
 ---
 
