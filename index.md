@@ -40,10 +40,9 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 
 ---
 
-## 📤 Step 4: Export or Share
+## 📤 Step 4: Export 
 
-- Click **File > Export As Image** to save your graph.
-- Or click **File > Save to Tableau Public** to publish online.
+- Click **Worksheet > Export > Image** to save your graph.
 
 ---
 
