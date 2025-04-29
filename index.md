@@ -25,7 +25,7 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 2. Drag a **numeric measure** (e.g., `Sales`, `Profit`, or `Quantity`) to the **Rows** shelf.
 3. Tableau will automatically generate a bar graph!
 
-![Basic Bar Graph](images/basic-bar.png)
+<img src="images/basic_bar.png" alt="Basic Bar Graph" width="800"/>
 
 ---
 
