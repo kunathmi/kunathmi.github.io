@@ -36,13 +36,15 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 - Sort the bars by value using the **Sort** button.
 - Change the chart title by double-clicking it.
 
-![Customize Graph](images/customize.png)
+![Customize Graph](images/color_example.png)
 
 ---
 
 ## 📤 Step 4: Export 
 
 - Click **Worksheet > Export > Image** to save your graph.
+
+![Export Image](images/export_image.png)
 
 ---
 
