@@ -15,7 +15,7 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 2. Click **"Connect to Data"** and select **Microsoft Excel** or **Text File (CSV)**.
 3. Choose your dataset file and click **Open**.
 
-![Connect to Data](images/connect-data.png)
+<img src="images/connect_data.png" alt="Connect to Data" width="800"/>
 
 ---
 
