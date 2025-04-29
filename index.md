@@ -5,7 +5,7 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 ## 🛠️ Requirements
 
 - [Tableau Public](https://public.tableau.com/en-us/s/download/) (Free download)
-- A dataset (you can use [this sample dataset](add link) or your own)
+- A dataset (you can use one of these [sample datasets](https://public.tableau.com/app/learn/sample-data?qt-overview_resources=1) or your own)
 
 ---
 
