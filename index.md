@@ -15,7 +15,7 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 2. Click **"Connect to Data"** and select **Microsoft Excel** or **Text File (CSV)**.
 3. Choose your dataset file and click **Open**.
 
-<img src="images/connect_data.png" alt="Connect to Data" width="800"/>
+<img src="images/open_file_edited.png" alt="Connect to Data" width="800"/>
 
 ---
 
@@ -25,7 +25,7 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 2. Drag a **numeric measure** (e.g., `Sales`, `Profit`, or `Quantity`) to the **Rows** shelf.
 3. Tableau will automatically generate a bar graph!
 
-<img src="images/basic_bar.png" alt="Basic Bar Graph" width="800"/>
+<img src="images/bar_graph_edited" alt="Basic Bar Graph" width="800"/>
 
 ---
 
