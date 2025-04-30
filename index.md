@@ -54,6 +54,12 @@ A clean dataset will save you time and make your visualization process much smoo
 
 <img src="images/color_example.png" alt="Customize Graph" width="800"/>
 
+What should you think about when customizing your graph?
+- Customizing your bar graph is a great opportunity to reinforce clarity in your visual.
+- If you use color, make sure it’s not just decorative. Does it add insight? Are the color choices accessible to people with color vision deficiencies? This ties into Data Feminism’s focus on inclusivity in design and our class on color blindness and accessible graphs. 
+- As Tufte would advise, avoid ‘chartjunk’ such as 3D effects, excessive gradients, or shadows because they can detract from the actual data. Labels should be used to enhance understanding, not clutter the chart.
+- Following Cairo’s principles, be transparent about what your graph shows and what it doesn’t. If the graph might suggest a causal relationship when there’s only correlation, add a note or make that context clear.
+
 ---
 
 ## 📤 Step 4: Export 
@@ -61,6 +67,12 @@ A clean dataset will save you time and make your visualization process much smoo
 - Click **Worksheet > Export > Image** to save your graph.
 
 <img src="images/export_image.png" alt="Export Image" width="800"/>
+
+Before exporting and sharing your chart, take a moment to reflect on what it communicates. Is the design honest and inclusive?
+
+As Cairo suggests, once a visualization leaves your screen, it becomes a form of public communication — one that can persuade or mislead. We have a responsibility to ensure our charts are truthful and ethically designed.
+
+Also, from a Data Feminism lens, consider who might be affected by this data or its interpretation. Is there anyone whose story or perspective is missing? Are there communities that may interpret the graph differently based on lived experience?
 
 ---
 
