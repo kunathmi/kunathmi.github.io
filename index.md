@@ -12,8 +12,9 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 ## 📊 Step 1: Open Tableau and Connect to Data
 
 1. Open Tableau Public or Tableau Desktop.
-2. Click **"Connect to Data"** and select **Microsoft Excel** or **Text File (CSV)**.
-3. Choose your dataset file and click **Open**.
+2. Click **"Connect to Data"** and select your file type which will most likely be **Microsoft Excel** or **Text File (CSV)**.
+3. Data sets you have worked with in Tableau will populate under **Saved Data Sources**.
+4. Choose your dataset file and click **Open**.
 
 <img src="images/open_file_edited.png" alt="Connect to Data" width="800"/>
 
