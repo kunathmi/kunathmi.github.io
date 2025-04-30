@@ -14,7 +14,7 @@ Before you start, it's important to check that your dataset is clean and organiz
 
 You can use tools like Tableau Prep, Excel, or your favorite code editor (like Python or R) to clean your data. While Tableau Desktop offers some basic cleaning features—such as filtering, renaming fields, creating calculated columns, and handling nulls—it is not designed for full-scale data wrangling. For more advanced cleaning tasks (like reshaping, removing duplicates, or normalizing data), use Tableau Prep or an external tool before importing the dataset into Tableau.
 
-Here's what to check:
+#### Here's what to check:
 1. Ensure your file has **clear headers** and **consistent data types**.
 2. Remove any unnecessary blank rows or columns.
 3. Check for **null or missing values**, especially in key columns like categories or values.
@@ -54,7 +54,8 @@ A clean dataset will save you time and make your visualization process much smoo
 
 <img src="images/color_example.png" alt="Customize Graph" width="800"/>
 
-What should you think about when customizing your graph?
+#### Here's what to think about: 
+
 - Customizing your bar graph is a great opportunity to reinforce clarity in your visual.
 - If you use color, make sure it’s not just decorative. Does it add insight? Are the color choices accessible to people with color vision deficiencies? This ties into Data Feminism’s focus on inclusivity in design and our class on color blindness and accessible graphs. 
 - As Tufte would advise, avoid ‘chartjunk’ such as 3D effects, excessive gradients, or shadows because they can detract from the actual data. Labels should be used to enhance understanding, not clutter the chart.
