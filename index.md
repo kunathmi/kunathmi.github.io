@@ -9,6 +9,21 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 
 ---
 
+## 📂 Step 0: Prepare and Understand Your Data
+Before you start, it's important to check that your dataset is clean and organized. This helps Tableau interpret your data correctly and prevents issues during visualization.
+
+You can use tools like Tableau Prep, Excel, or your favorite code editor (like Python or R) to clean your data. While Tableau Desktop offers some basic cleaning features—such as filtering, renaming fields, creating calculated columns, and handling nulls—it is not designed for full-scale data wrangling. For more advanced cleaning tasks (like reshaping, removing duplicates, or normalizing data), use Tableau Prep or an external tool before importing the dataset into Tableau.
+
+Here's what to check:
+1. Ensure your file has **clear headers** and **consistent data types**.
+2. Remove any unnecessary blank rows or columns.
+3. Check for **null or missing values**, especially in key columns like categories or values.
+4. Identify which columns are **categorical** (like Region, Product, or Category) and which are **numeric** (like Sales or Profit).
+   
+A clean dataset will save you time and make your visualization process much smoother.
+
+---
+
 ## 📊 Step 1: Open Tableau and Connect to Data
 
 1. Open Tableau Public or Tableau Desktop.
@@ -47,6 +62,17 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 
 <img src="images/export_image.png" alt="Export Image" width="800"/>
 
+---
+
+## ➕ Bonus: Turn Your Bar Chart into a Dashboard
+
+Dashboards are great for presenting multiple perspectives from a dataset in a single view. Take your analysis a step further by combining multiple charts into one interactive dashboard using the following steps:
+
+1. Click the “Dashboard” tab at the bottom of Tableau.
+2. Drag your bar graph worksheet into the blank dashboard area.
+3. Add additional charts (e.g., pie chart, line graph, map) if available.
+4. Use the “Actions” menu to add interactivity—such as clicking on a bar to filter another chart.
+5. Customize layout and design, then export or publish to Tableau Public.
 
 ---
 
@@ -60,7 +86,17 @@ Welcome! This tutorial will walk you through the steps of creating a simple, eff
 
 ## ✅ You're Done!
 
-You just built and customized a bar graph in Tableau! Try experimenting with different datasets and variables to gain more insight from your data.
+You just built and customized a bar graph in Tableau! Try experimenting with different datasets and variables to gain more insight from your data. There are so many things you can do with Tableau including making dashboards to display multiple data visualizations at once!
+
+---
+
+## 💪 Extra Practice Exercise
+
+Test your skills with this challenge:
+
+Using the Superstore sample dataset, create a bar graph that shows total **Sales** by **Sub-Category**. Then, add color to the bars based on **Profit**, and sort them by total sales.
+
+Bonus: Turn it into a dashboard by adding a line chart of **Sales over Time**, and set a filter action that highlights the bar chart when a month is selected.
 
 ---
 
