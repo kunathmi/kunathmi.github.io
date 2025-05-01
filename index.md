@@ -17,7 +17,7 @@ You can use tools like Tableau Prep, Excel, or your favorite code editor (like P
 ### What to Check:
 1. Ensure your file has **clear headers** and **consistent data types**.
 2. Remove any unnecessary blank rows or columns.
-3. Check for **null or missing values**, especially in key columns like categories or values.
+3. Check for **null or missing values**, especially in key columns.
 4. Identify which columns are **categorical** (like Region, Product, or Category) and which are **numeric** (like Sales or Profit).
 5. Reflect on the data itself. Who collected it, and for what purpose? Are all groups equally represented, or are there gaps or biases we should be aware of?
    
