@@ -29,7 +29,7 @@ A clean dataset will save you time and make your visualization process much smoo
 
 1. Open Tableau Public or Tableau Desktop.
 2. Click **"Connect to Data"** and select your file type which will most likely be **Microsoft Excel** or **Text File (CSV)**.
-3. Data sets you have worked with in Tableau will populate under **Saved Data Sources**.
+3. Data sets you have worked with in Tableau previously will populate under **Saved Data Sources**.
 4. Choose your dataset file and click **Open**.
 
 <img src="images/open_file_edited.png" alt="Connect to Data" width="800"/>
