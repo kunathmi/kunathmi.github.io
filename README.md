@@ -185,7 +185,15 @@ Edit `static/css/base.css` to change layout, spacing, typography, or any style t
 
 > **Before you push:** The `docs/` folder is not included in this template repo — you need to generate it first. Run `uv run python build.py` locally and commit the resulting `docs/` folder before enabling GitHub Pages, otherwise GitHub will have nothing to serve.
 
-1. **Build the site and commit `docs/`.**
+1. **Remove `docs/` from `.gitignore`.**
+
+   The template's `.gitignore` excludes `docs/` so the example site isn't committed to the template repo itself. In your own fork, you need to track `docs/` so GitHub Pages can serve it. Open `.gitignore` and delete (or comment out) this line:
+
+   ```gitignore
+   docs/
+   ```
+
+2. **Build the site and commit `docs/`.**
 
    ```bash
    uv run python build.py
@@ -193,15 +201,15 @@ Edit `static/css/base.css` to change layout, spacing, typography, or any style t
    git commit -m "build site"
    ```
 
-2. **Push your repo to GitHub.**
+3. **Push your repo to GitHub.**
 
-3. In your repository on GitHub, go to **Settings → Pages**.
+4. In your repository on GitHub, go to **Settings → Pages**.
 
-4. Under **Build and deployment → Source**, select **Deploy from a branch**.
+5. Under **Build and deployment → Source**, select **Deploy from a branch**.
 
-5. Set the branch to `main` (or your default branch) and the folder to `/docs`.
+6. Set the branch to `main` (or your default branch) and the folder to `/docs`.
 
-6. Click **Save**. GitHub will build and publish your site within a minute or two.
+7. Click **Save**. GitHub will build and publish your site within a minute or two.
 
 Your site will be available at:
 
