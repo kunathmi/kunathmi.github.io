@@ -1,0 +1,11 @@
+[project]
+name = "professional-portfolio-template"
+version = "0.1.0"
+description = "A static portfolio site generator for data science students"
+requires-python = ">=3.10"
+dependencies = [
+    "jinja2>=3.1",
+    "markdown>=3.5",
+    "pyyaml>=6.0",
+]
+
