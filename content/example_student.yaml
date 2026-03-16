@@ -6,8 +6,8 @@
 # information, and update portfolio_config.yaml to point to it.
 # ============================================================
 
-name: "Zeke the Wonder Dog"
-tagline: "Aspiring Data Scientist | MSU Mascot | Good Boy"
+name: "Mia Kunath"
+tagline: "Aspiring Data Scientist | MSU Student | FIgure Skater"
 
 about: |
   I'm a red English lab and one of Michigan State's beloved mascots, but
@@ -24,6 +24,6 @@ about: |
   He played the role of Zeke the Wonder Dog for a decade._
 
 # Contact information — remove any fields you prefer not to share
-email: "zeke@msu.edu"
-linkedin: "https://www.linkedin.com/in/zeke-the-wonder-dog"
-github: "https://github.com/zeke-wonder-dog"
+email: "kunathmi@msu.edu"
+linkedin: "https://www.linkedin.com/in/mia-kunath"
+github: "https://github.com/kunathmi"

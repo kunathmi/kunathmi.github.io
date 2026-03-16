@@ -5,7 +5,7 @@
 # Copy this file to create your own project entries.
 # ============================================================
 
-title: "Optimal Nap Spot Prediction Across Campus"
+title: "Dance Project Classification"
 
 short_summary: >
   Built a model to identify the best nap locations on MSU's campus based
@@ -16,9 +16,12 @@ short_summary: >
 tech_stack:
   - Python
   - scikit-learn
+  - numpy
   - pandas
-  - matplotlib
-  - Jupyter Notebooks
+  - matplotlib.pyplot
+  - seaborn 
+  - pickle
+  - jupyter
 
 problem_statement: >
   Finding a good nap spot is harder than it looks. Campus is large,
@@ -42,6 +45,6 @@ results_impact: >
   but secondary boost. A ranked list of top-10 nap sites was distributed
   to the campus dog community and has since been downloaded 847 times.
 
-repo_url: "https://github.com/zeke-wonder-dog/nap-spot-predictor"
+repo_url: "https://github.com/kunathmi/cmse492_project.git"
 notebook_url: "https://github.com/zeke-wonder-dog/nap-spot-predictor/blob/main/analysis.ipynb"
 image_path: "img/placeholder_project_1.png"
