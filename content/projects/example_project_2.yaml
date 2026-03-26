@@ -5,47 +5,57 @@
 # Copy this file to create your own project entries.
 # ============================================================
 
-title: "Spartan Football Crowd Cheer Analysis"
+title: "Concrete Cracks Classification Project"
 
 short_summary: >
-  Analyzed audio and attendance data from Spartan Stadium to understand
-  what game events drive the loudest crowd reactions. Results were used
-  to help the athletics department optimize in-game entertainment and
-  — personally — to determine the exact moments when I should run onto
-  the field for maximum dramatic effect.
+  This data used for this project is a set of images of cracked and 
+  non-cracked concrete from walls, sidewalks, and bridges. The project 
+  builds a classification algorithm to classify images into cracked or 
+  non-cracked.
+
+
 
 tech_stack:
-  - Python
+  - numpy
   - pandas
+  - matplotlib
   - seaborn
-  - Plotly
-  - Jupyter Notebooks
+  - scipy
+  - pillow
+  - scikit-learn
 
 problem_statement: >
-  Fan energy is contagious, but it is also unpredictable. The athletics
-  department wanted to know which in-game events (touchdowns, turnovers,
-  big defensive stops, walk-up music choices) produced the biggest crowd
-  reactions — and whether the pattern differed by opponent, weather, or
-  game time. As the mascot, I had strong professional interest in this
-  question.
+  This project uses the Concrete Cracks dataset. The goal is to 
+  classify images into cracked or non-cracked concrete to be able to 
+  quickly identify locations with concrete cracks.
 
 approach: >
-  Combined play-by-play game data with decibel readings from stadium
-  microphones across three seasons (~36 home games). Engineered features
-  for score differential, down-and-distance, quarter, temperature, and
-  opponent rank. Produced interactive Plotly dashboards that let
-  non-technical staff filter by season and event type to explore crowd
-  response patterns on their own.
+  To address our research questions, we began by preprocessing the data. 
+  This involved combining the images from the two datasets into a single 
+  unified dataset. We then converted the categorical labels into numerical 
+  values and flattened the image data to prepare it for model input. 
+  After preprocessing, we analyzed the shape and structure of the dataset 
+  to determine which classification models would be most appropriate. We 
+  proceeded to build and evaluate several models, ultimately focusing on 
+  logistic regression and a random forest classifier to compare 
+  performance and identify the most effective approach for our specific 
+  dataset.
+
+
 
 results_impact: >
-  Defensive turnovers produced the loudest average crowd response —
-  louder even than touchdowns — especially when MSU was trailing.
-  Walk-up music selections in the 3rd quarter showed a statistically
-  significant effect on cheer volume for games decided by fewer than
-  10 points. The athletics team used these findings to redesign the
-  third-quarter entertainment package for the following season. I was
-  given extra treats for my contributions.
+  In this project, we explored the effectiveness of various classification 
+  models in identifying cracks in images. Through preprocessing, model 
+  experimentation, and hyperparameter tuning, we observed that class 
+  imbalance significantly impacted our model performance, particularly in 
+  overpredicting the majority class. By implementing balancing techniques 
+  and using tools like GridSearchCV, we were able to develop more reliable 
+  models that better captured patterns across both cracked and non-cracked 
+  images. In the end the model that performed the best was the Random Forest 
+  Classifier due to its higher performance across all metrics.
 
-repo_url: "https://github.com/zeke-wonder-dog/spartan-cheer-analysis"
-notebook_url: "https://github.com/zeke-wonder-dog/spartan-cheer-analysis/blob/main/cheer_analysis.ipynb"
+
+
+repo_url: "https://github.com/kunathmi/cmse381_project.git"
+notebook_url: "https://github.com/kunathmi/cmse381_project.git/notebooks/ProjectTemplate.ipynb"
 image_path: "img/placeholder_project_2.png"

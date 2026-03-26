@@ -8,10 +8,13 @@
 title: "Dance Project Classification"
 
 short_summary: >
-  Built a model to identify the best nap locations on MSU's campus based
-  on sunlight exposure, foot traffic, grass quality, and proximity to
-  food smells. Findings have been peer-reviewed by three other dogs and
-  were described as "life-changing" and "very good."
+  This is a classification algorithm that can classify keypoint data of 
+  body movements in dance videos into 2 different dance styles. The two 
+  dance styles it will classify are Jazz Ballet and House.
+
+
+
+
 
 tech_stack:
   - Python
@@ -24,26 +27,30 @@ tech_stack:
   - jupyter
 
 problem_statement: >
-  Finding a good nap spot is harder than it looks. Campus is large,
-  conditions change throughout the day, and the best patches of sun
-  move. A mascot operating on intuition alone wastes valuable resting
-  time — a problem that affects productivity, morale, and tail-wagging
-  rates across the entire campus community.
+  This project builds a classification algorithm that can classify keypoint 
+  data of body movements in dance videos into two different dance styles: 
+  Jazz Ballet and House. 
 
 approach: >
-  Collected location data across 47 candidate nap sites over a full
-  academic semester. Features included average daily sunlight (hours),
-  grass softness score (1–10, assessed manually), nearby food-cart
-  proximity, and pedestrian traffic by hour. Trained a gradient boosting
-  classifier to predict a site's "nap quality" rating and used SHAP
-  values to explain which features mattered most.
+  This project will build a classification algorithm that can classify keypoint 
+  data of body movements in dance videos into 2 different dance styles. 
+  Specifically, I will use keypoint data which identifies major joints and key 
+  facial features and tracks their locations throughout a video. Then, I will 
+  build a feature vector using various calculations on the keypoint data. These 
+  calculations will be determined in order to identify a dance such as velocity 
+  or "energy," range of motion, etc. I can then use the feature vectors to build 
+  a machine learning model to classify dance videos into two different styles. 
+  I start with a small number of features and add more as needed to improve 
+  classification. This is a supervised learning task.
 
 results_impact: >
-  The model achieved 89% accuracy on held-out test sites. Sunlight
-  duration and grass softness were the top two predictive features,
-  while proximity to the student union food court provided a meaningful
-  but secondary boost. A ranked list of top-10 nap sites was distributed
-  to the campus dog community and has since been downloaded 847 times.
+  After this analysis, I have determined that the best model for this task 
+  is logistic regression after scaling with StandardScaler and using PCA 
+  for dimension reduction. The accuracy level of the best model was 0.91 
+  and the f1-scores for ballet-jazz and house are 0.90 and 0.91, respectively. 
+  These numbers met my goals of 0.90 for the accuracy level and f1-scores. The 
+  close second model is an SVM because it achieved the same scores, but just 
+  had a longer computing time. 
 
 repo_url: "https://github.com/kunathmi/cmse492_project.git"
 notebook_url: "https://github.com/zeke-wonder-dog/nap-spot-predictor/blob/main/analysis.ipynb"
