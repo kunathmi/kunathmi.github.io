@@ -53,5 +53,5 @@ results_impact: >
   had a longer computing time. 
 
 repo_url: "https://github.com/kunathmi/cmse492_project.git"
-notebook_url: "https://github.com/zeke-wonder-dog/nap-spot-predictor/blob/main/analysis.ipynb"
-image_path: "img/placeholder_project_1.png"
+notebook_url: "https://github.com/kunathmi/cmse492_project/blob/main/notebooks/05_hyperparameter_tuning.ipynb"
+image_path: "img/dance_image.png"

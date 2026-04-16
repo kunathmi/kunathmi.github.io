@@ -57,5 +57,5 @@ results_impact: >
 
 
 repo_url: "https://github.com/kunathmi/cmse381_project.git"
-notebook_url: "https://github.com/kunathmi/cmse381_project.git/notebooks/ProjectTemplate.ipynb"
-image_path: "img/placeholder_project_2.png"
+notebook_url: "https://github.com/kunathmi/cmse381_project/blob/main/notebooks/ProjectTemplate.ipynb"
+image_path: "img/crack_image.png"
