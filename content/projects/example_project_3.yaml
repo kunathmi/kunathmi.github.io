@@ -45,5 +45,5 @@ results_impact: >
 
 
 repo_url: "https://github.com/kunathmi/aws-nyc311-kunathmi.git"
-notebook_url: "https://github.com/kunathmi/aws-nyc311-kunathmi.git/blob/main/notebooks/modeling_train_and_eval.ipynb"
+notebook_url: "https://github.com/kunathmi/aws-nyc311-kunathmi/blob/main/notebooks/modeling_train_and_eval.ipynb"
 image_path: "img/confusion_matrix.png"
