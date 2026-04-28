@@ -16,12 +16,13 @@ student_file: content/example_student.yaml
 projects:
   - content/projects/example_project_1.yaml
   - content/projects/example_project_2.yaml
+  - content/projects/example_project_3.yaml
 
 # --- Theme ---
 # Built-in options: "light", "dark", "msu-light", "msu-dark"
 # You can also add your own CSS file under static/css/themes/ and
 # use its name here (without the .css extension).
-theme: msu-dark
+theme: test_theme
 
 # --- Site metadata ---
 # Used in the HTML <title> tag and browser tab.

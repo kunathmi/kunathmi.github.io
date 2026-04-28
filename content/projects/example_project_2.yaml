@@ -1,8 +1,7 @@
 # ============================================================
 # content/projects/example_project_2.yaml
 # ============================================================
-# Example project: Crowd Cheer Analysis at Spartan Football Games
-# Copy this file to create your own project entries.
+# Project: Concrete Cracks Classification Project
 # ============================================================
 
 title: "Concrete Cracks Classification Project"
@@ -56,6 +55,6 @@ results_impact: >
 
 
 
-repo_url: "https://github.com/kunathmi/cmse381_project.git"
-notebook_url: "https://github.com/kunathmi/cmse381_project/blob/main/notebooks/ProjectTemplate.ipynb"
+repo_url: "https://github.com/kunathmi/concrete_cracks_project.git"
+notebook_url: "https://github.com/kunathmi/concrete_cracks_project/blob/main/notebooks/ProjectTemplate.ipynb"
 image_path: "img/crack_image.png"

@@ -1,0 +1,49 @@
+# ============================================================
+# content/projects/example_project_3.yaml
+# ============================================================
+# Project: NYC 311 Service Requests Analysis
+# ============================================================
+
+title: "NYC 311 Service Requests Analysis"
+
+short_summary: >
+  This project analyzes NYC 311 service request data to identify patterns in 
+  complaints across different boroughs and time periods. The analysis includes 
+  data cleaning, exploratory data analysis, and visualization to uncover trends 
+  in the types of complaints and their geographic distribution.
+
+
+
+tech_stack:
+  - pandas
+  - boto3
+  - numpy
+  - matplotlib
+  - scikit-learn
+
+problem_statement: >
+  This project uses the NYC 311 service request data. The goal is to 
+  analyze the data and identify patterns in complaints across different 
+  boroughs and time periods.
+
+approach: >
+  To address our research questions, we began by cleaning the data to handle 
+  missing values and inconsistencies. We then performed exploratory data 
+  analysis to identify trends in the types of complaints and their geographic 
+  distribution across NYC boroughs. Finally, we created visualizations to 
+  effectively communicate our findings and insights from the data.
+
+
+
+results_impact: >
+  In this project, we explored the patterns in NYC 311 service request data. 
+  Through data cleaning, exploratory data analysis, and visualization, we 
+  uncovered trends in the types of complaints and their geographic distribution. 
+  This analysis can help city officials better understand the needs of different 
+  communities and allocate resources more effectively to address common issues.
+
+
+
+repo_url: "https://github.com/kunathmi/aws-nyc311-kunathmi.git"
+notebook_url: "https://github.com/kunathmi/aws-nyc311-kunathmi.git/blob/main/notebooks/modeling_train_and_eval.ipynb"
+image_path: "img/confusion_matrix.png"
